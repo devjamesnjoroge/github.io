@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .outermost-container {
@@ -24,6 +27,41 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 2vh;
+  flex-wrap: wrap;
+}
+
+.nav-col h5 {
+  color: #90ad2a;
+  text-transform: uppercase;
+}
+
+.nav-col h6 {
+  color: #f1f1f1;
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  margin: 1.5vh 0;
+  text-align: center;
+  border-bottom: 1px solid #90ad2a;
+}
+
+.col a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.col a:hover {
+  color: #90ad2a;
 }
 
 .body-col {
@@ -34,8 +72,23 @@
 }
 
 .profile-pic {
-  height: 25vh;
-  width: 25vh;
-  background-color: #90ad2a;
+  height: 22vh;
+  width: 22vh;
+  background-image: url("../images/portfolio.jpeg");
   border-radius: 50%;
+  background-size: cover;
+}
+
+.nav-col p {
+  font-size: 11px;
+  color: #90ad2a;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
 }
