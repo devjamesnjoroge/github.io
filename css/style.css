@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.outermost-container {
+  background-color: #90ad2a;
+  height: 90vh;
+  width: 90vw;
+  margin: 5vh 5vw;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-col {
+  background-color: #101935;
+  height: 88vh;
+  width: 20vw;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.body-col {
+  background-color: #f1f1f1;
+  height: 88vh;
+  width: 68vw;
+  border-radius: 3px;
+}
+
+.profile-pic {
+  height: 25vh;
+  width: 25vh;
+  background-color: #90ad2a;
+  border-radius: 50%;
+}
