@@ -7,6 +7,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background: linear-gradient(to right, #101935, #061541);
+  background-size: cover;
+}
+
 .outermost-container {
   background-color: #90ad2a;
   height: 90vh;
