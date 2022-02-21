@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on frontend web development
+# 🔭 I’m currently working on frontend web development
 - 🌱 I’m currently learning Javascript frameworks
 - 👯 I’m looking to collaborate on UI/UX designs
 - 🤔 I’m looking for help with prototyping using figma
