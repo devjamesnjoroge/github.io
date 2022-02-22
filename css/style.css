@@ -37,7 +37,8 @@ body {
   flex-wrap: wrap;
 }
 
-.nav-col h5 {
+.nav-col h5 a {
+  text-decoration: none;
   color: #90ad2a;
   text-transform: uppercase;
 }
@@ -70,7 +71,7 @@ body {
 }
 
 .body-col {
-  background-color: #f1f1f1;
+  background-color: #061541;
   height: 88vh;
   width: 68vw;
   border-radius: 3px;
@@ -80,45 +81,54 @@ body {
   justify-content: center;
 }
 
-.container {
-  overflow: scroll;
+#two {
+  overflow-y: scroll;
+}
+
+.bkghero {
+  height: 85vh;
+  width: 65vw;
+  background-image: url("../images/hero.png");
+  background-size: cover;
 }
 
 .hero {
   height: 85vh;
   width: 65vw;
-  background-color: #101935;
+  background-color: #061541;
+  background-size: cover;
+  opacity: 0.5;
 }
 
 .about {
   height: 85vh;
+  margin: 4vh 0;
   width: 65vw;
-  background-color: #b11764;
   transition-delay: 13s;
 }
 
 .projects {
   height: 85vh;
+  margin: 4vh 0;
   width: 65vw;
-  background-color: #30c054;
 }
 
 .resume {
   height: 85vh;
+  margin: 4vh 0;
   width: 65vw;
-  background-color: #065f9b;
 }
 
 .hobbies {
   height: 85vh;
+  margin: 4vh 0;
   width: 65vw;
-  background-color: #e6bc01;
 }
 
 .contact {
   height: 85vh;
+  margin: 4vh 0;
   width: 65vw;
-  background-color: #b11764;
 }
 
 .profile-pic {
