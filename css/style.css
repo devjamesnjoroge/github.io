@@ -160,7 +160,7 @@ body {
 
 .cards {
   height: 65vh;
-  width: 45vw;
+  width: 42vw;
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
@@ -169,6 +169,7 @@ body {
   padding: 2vh;
 }
 
+#prev,
 #two,
 #three,
 #four {
@@ -177,9 +178,10 @@ body {
 
 .photos {
   height: 40vh;
-  width: 45vw;
+  width: 42vw;
   background-size: cover;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .one {
@@ -187,7 +189,9 @@ body {
 }
 
 .two {
-  background-image: url("../images/mitsubishi1.jpg");
+  background-image: url("../images/mitsubishi2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .three {
@@ -196,6 +200,28 @@ body {
 
 .four {
   background-image: url("../images/moveme.jpg");
+}
+
+.slider {
+  width: 20vw;
+  height: 7vh;
+  border: 1px solid #90ad2a;
+  display: flex;
+}
+
+.pgs {
+  width: 5vw;
+  height: 7vh;
+  border: 1px solid #90ad2a;
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pgs:hover {
+  background-color: #90ad2a;
+  color: #061541;
 }
 
 .resume {
