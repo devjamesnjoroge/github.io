@@ -230,6 +230,59 @@ body {
   width: 65vw;
 }
 
+.employment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64vw;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3vw;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 55vw;
+  height: 40vh;
+}
+
+.icon-cards {
+  height: 30vh;
+  width: 25vw;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.icon-cards strong {
+  color: #90ad2a;
+}
+
+.icon-cards p {
+  text-transform: capitalize;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.txt h4 {
+  color: #f1f1f1;
+  font-family: "Poppins", sans-serif !important;
+}
+
 .hobbies {
   height: 85vh;
   margin: 4vh 0;
