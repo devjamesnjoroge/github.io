@@ -47,6 +47,7 @@ body {
   color: #f1f1f1;
   font-size: 10px;
   text-transform: capitalize;
+  font-weight: 800;
 }
 
 .row {
@@ -81,23 +82,46 @@ body {
   justify-content: center;
 }
 
-#two {
+.container {
   overflow-y: scroll;
 }
 
 .bkghero {
   height: 85vh;
   width: 65vw;
-  background-image: url("../images/hero.png");
+  background-image: url("../images/imageedit_1_5111354226.png");
   background-size: cover;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  flex-direction: column;
+}
+
+.bkghero span {
+  color: #90ad2a;
+}
+
+.bkghero p {
+  color: #f1f1f1;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.bkghero h6 {
+  color: #f1f1f1;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 .hero {
   height: 85vh;
   width: 65vw;
-  background-color: #061541;
-  background-size: cover;
-  opacity: 0.5;
+  margin-top: -85vh;
+  background-color: #06154188;
 }
 
 .about {
@@ -111,6 +135,67 @@ body {
   height: 85vh;
   margin: 4vh 0;
   width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+.projects p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.container-fluid {
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+.cards {
+  height: 65vh;
+  width: 45vw;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  background-color: #90ad2a;
+  border-radius: 5px;
+  padding: 2vh;
+}
+
+#two,
+#three,
+#four {
+  display: none;
+}
+
+.photos {
+  height: 40vh;
+  width: 45vw;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.one {
+  background-image: url("../images/insurance.jpg");
+}
+
+.two {
+  background-image: url("../images/mitsubishi1.jpg");
+}
+
+.three {
+  background-image: url("../images/burger.jpg");
+}
+
+.four {
+  background-image: url("../images/moveme.jpg");
 }
 
 .resume {
@@ -126,9 +211,19 @@ body {
 }
 
 .contact {
-  height: 85vh;
+  height: max-content;
   margin: 4vh 0;
   width: 65vw;
+}
+
+iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 65vw;
+  height: 85vh;
+  border: none;
 }
 
 .profile-pic {
