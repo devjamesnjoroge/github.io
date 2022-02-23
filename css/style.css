@@ -163,13 +163,37 @@ body {
 
 .cards {
   height: 65vh;
-  width: 42vw;
+  width: 44vw;
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
-  background-color: #90ad2a;
+  background-color: #061541;
   border-radius: 5px;
   padding: 2vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards h6 {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #90ad2a;
+}
+
+.cards p {
+  text-transform: initial;
+  font-size: medium;
+  text-align: center;
+}
+
+.cards em {
+  color: #90ad2a;
+  cursor: pointer;
+}
+
+.cards em:hover {
+  text-decoration: underline;
 }
 
 #prev,
