@@ -302,7 +302,7 @@ body {
 }
 
 .hobbies {
-  height: 85vh;
+  height: max-content;
   margin: 4vh 0;
   width: 65vw;
   display: flex;
@@ -336,6 +336,18 @@ body {
   font-size: 15px;
   width: 30vw;
   margin-left: 3vw;
+}
+
+#chest {
+  height: 15em;
+  width: 15em;
+  clip-path: url("#clippy");
+}
+
+#aliens {
+  height: 15em;
+  width: 15em;
+  clip-path: url("#clippy-two");
 }
 
 .conspiracy {
