@@ -478,15 +478,16 @@ iframe {
   }
 
   .photos {
-    width: 70vw;
+    width: 80vw;
+    height: 30vh;
   }
 
   .slider {
-    width: 30vw;
+    width: 48vw;
   }
 
   .pgs {
-    width: 7.4vw;
+    width: 12vw;
     cursor: pointer;
   }
 
@@ -546,6 +547,7 @@ iframe {
 
   iframe {
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
+    overflow: scroll;
   }
 }
