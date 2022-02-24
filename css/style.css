@@ -430,6 +430,10 @@ iframe {
   margin: 0 0.5rem;
 }
 
+.footer {
+  display: none;
+}
+
 @media screen and (max-width: 881px) {
   .outermost-container {
     flex-direction: column;
@@ -562,5 +566,25 @@ iframe {
     width: 100vw;
     height: 100vh;
     overflow: scroll;
+  }
+
+  .footer {
+    border-top: 1px solid #90ad2a;
+    border-bottom: 1px solid #90ad2a;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer p {
+    color: #f1f1f1;
+  }
+
+  .nav-col .social-icons,
+  .nav-col p {
+    display: none;
   }
 }
