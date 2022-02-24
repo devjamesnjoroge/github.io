@@ -574,13 +574,14 @@ iframe {
     height: 20vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     justify-content: center;
   }
 
   .footer p {
     color: #f1f1f1;
+    margin-top: 3vh;
   }
 
   .nav-col .social-icons,
