@@ -469,6 +469,10 @@ iframe {
     overflow: hidden;
   }
 
+  .hero {
+    margin-top: 85vh;
+  }
+
   .projects {
     margin-top: 100vh;
   }
@@ -478,8 +482,9 @@ iframe {
   }
 
   .photos {
-    width: 80vw;
+    width: 95vw;
     height: 30vh;
+    background-size: cover;
   }
 
   .slider {
@@ -509,6 +514,7 @@ iframe {
   .icon-cards {
     width: 100vw;
     margin: 5vh 0;
+    height: 25vh;
   }
 
   .hobbies {
