@@ -128,11 +128,42 @@ body {
 }
 
 .about {
-  height: 85vh;
+  height: 132vh;
   margin: 4vh 0;
   width: 65vw;
   transition-delay: 13s;
   border-bottom: 1px solid #90ad2a;
+}
+
+.about h3 {
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.outer-about {
+  margin-left: 7vw !important;
+}
+
+.circle-title {
+  height: 40px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  margin: 3vh 0;
+}
+
+.dotted {
+  height: 110px;
+  width: 1px;
+  background-color: #f1f1f1;
+  margin-left: 10px;
 }
 
 .projects {
