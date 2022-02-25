@@ -522,6 +522,12 @@ iframe {
     margin-left: 1vw !important;
   }
 
+  .outer-about,
+  .circle-title,
+  .content {
+    width: 100vw !important;
+  }
+
   .projects {
     margin-top: 0vh;
     height: 100vh;
