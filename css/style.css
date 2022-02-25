@@ -509,7 +509,17 @@ iframe {
   }
 
   .about {
-    margin-top: 85vh;
+    height: initial;
+    width: 100vw;
+  }
+
+  .about h3 {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .outer-about {
+    margin-left: 1vw !important;
   }
 
   .projects {
