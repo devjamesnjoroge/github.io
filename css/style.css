@@ -120,7 +120,7 @@ body {
 }
 
 .hero {
-  height: 85vh;
+  height: 90vh;
   width: 65vw;
   margin-top: -85vh;
   background-color: #06154188;
@@ -479,7 +479,8 @@ iframe {
   display: none;
 }
 
-#hambg {
+#hambg,
+#cross {
   display: none;
 }
 
