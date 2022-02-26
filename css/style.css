@@ -486,6 +486,7 @@ iframe {
 
 @media screen and (max-width: 881px) {
   body {
+    width: 100vw;
     overflow-x: hidden;
   }
 
