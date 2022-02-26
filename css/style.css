@@ -146,6 +146,18 @@ body {
   margin-left: 7vw !important;
 }
 
+.content {
+  display: flex;
+}
+
+.myabout {
+  width: 25vw;
+  height: auto;
+  background-color: #f1f1f1;
+  margin-left: 15vw;
+  box-shadow: 0px 2px 2px 0px #90ad2a;
+}
+
 .circle-title {
   height: 40px;
 }
@@ -526,6 +538,10 @@ iframe {
   .circle-title,
   .content {
     width: 100vw !important;
+  }
+
+  .myabout {
+    width: 55vw;
   }
 
   .projects {
