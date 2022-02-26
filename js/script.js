@@ -9,7 +9,6 @@ var four = document.querySelector("#four");
 var hambg = document.querySelector("#hambg");
 var nav = document.querySelector(".nav-col");
 var cross = document.querySelector("#cross");
-var aselect = document.querySelector(".hidev");
 
 hambg.addEventListener("click", function (event) {
   nav.style.display = "flex";
@@ -18,12 +17,6 @@ hambg.addEventListener("click", function (event) {
 });
 
 cross.addEventListener("click", function (event) {
-  nav.style.display = "none";
-  hambg.style.display = "block";
-  cross.style.display = "none";
-});
-
-aselect.addEventListener("click", function (event) {
   nav.style.display = "none";
   hambg.style.display = "block";
   cross.style.display = "none";
