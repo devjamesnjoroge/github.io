@@ -6,6 +6,28 @@ var one = document.querySelector("#one");
 var two = document.querySelector("#two");
 var three = document.querySelector("#three");
 var four = document.querySelector("#four");
+var hambg = document.querySelector("#hambg");
+var nav = document.querySelector(".nav-col");
+var cross = document.querySelector("#cross");
+var aselect = document.querySelector(".hidev");
+
+hambg.addEventListener("click", function (event) {
+  nav.style.display = "flex";
+  hambg.style.display = "none";
+  cross.style.display = "block";
+});
+
+cross.addEventListener("click", function (event) {
+  nav.style.display = "none";
+  hambg.style.display = "block";
+  cross.style.display = "none";
+});
+
+aselect.addEventListener("click", function (event) {
+  nav.style.display = "none";
+  hambg.style.display = "block";
+  cross.style.display = "none";
+});
 
 pg1.addEventListener("click", function (event) {
   if ((one.style.display = "none")) {

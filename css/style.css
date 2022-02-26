@@ -479,7 +479,31 @@ iframe {
   display: none;
 }
 
+#hambg {
+  display: none;
+}
+
 @media screen and (max-width: 881px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #hambg {
+    display: block;
+    position: absolute;
+    left: 85vw;
+    top: 5vw;
+    cursor: pointer;
+  }
+
+  #cross {
+    display: block;
+    position: absolute;
+    left: 85vw;
+    top: 5vw;
+    cursor: pointer;
+  }
+
   .outermost-container {
     flex-direction: column;
     height: max-content;
@@ -489,7 +513,11 @@ iframe {
   }
 
   .nav-col {
+    height: 100vh;
     width: 100vw;
+    position: absolute;
+    top: 0;
+    display: none;
   }
 
   .body-col {
