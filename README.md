@@ -1,6 +1,6 @@
 # My Portfolio
 
-#### my landing page
+#### My Landing Page
 <img src="https://github.com/devjamesnjoroge/devjamesnjoroge/blob/master/images/about.jpg">
 
 #### By ** DevJamesNjoroge**
@@ -13,7 +13,7 @@ A website with my personal details. Including projects,skills and education
 
 - To use this website as a template just clone this repository into your local machine
 - Requirements include: a code editor e.g vscode also a terminal; recommended linux.
-- visit the website by clicking the following link - [my website] devjamesnjoroge.github.io/devjamesnjoroge/
+- visit the website by clicking the following link - [my website] devjamesnjoroge.github.io/devjamesnjoroge
 
 ## Known Bugs
 
@@ -33,4 +33,5 @@ A website with my personal details. Including projects,skills and education
 
 email: njorogehjames20@gmail.com
 
-[Go Back to the top](#My Portfolio)
+[Go Back to the top](# My Portfolio
+)
