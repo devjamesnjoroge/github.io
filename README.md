@@ -13,7 +13,7 @@ A website with my personal details. Including projects,skills and education
 
 - To use this website as a template just clone this repository into your local machine
 - Requirements include: a code editor e.g vscode also a terminal; recommended linux.
-- visit the website by clicking the following link - [my website] devjamesnjoroge.github.io/devjamesnjoroge
+- visit the website by clicking the following link - [my website] https://devjamesnjoroge.github.io/devjamesnjoroge
 
 ## Known Bugs
 
@@ -33,5 +33,4 @@ A website with my personal details. Including projects,skills and education
 
 email: njorogehjames20@gmail.com
 
-[Go Back to the top](# My Portfolio
-)
+
